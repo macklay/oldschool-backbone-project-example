@@ -1,0 +1,60 @@
+.layout-wrapper {
+    width: 1140px;
+}
+
+.layout-wrapper > header {
+    background-color: #2f3439;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.layout-wrapper > header .logo-link {
+    float: left;
+    padding-top: 13px;
+}
+
+.layout-wrapper > header svg {
+    display: inline-block;
+    height: 17px;
+    fill: #fff
+}
+
+.main-header {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 68px;
+    margin-top: 25px;
+    padding: 0 20px;
+}
+
+.ui-dialog-titlebar {
+    background-color: #2f3439;
+    color: #fff;
+}
+
+.ui-corner-all {
+    border-radius: 2px;
+}
+
+.ui-dialog {
+    padding: 1px;
+}
+
+.ui-dialog-buttonset button.ui-button:focus,
+.ui-dialog-buttonset button.ui-button:hover,
+.ui-dialog-buttonset button.ui-button {
+    background-color: #4598de;
+    border: 1px solid #4598de;
+    border-radius: 2px;
+    color: #fff;
+    outline: 0;
+}
+
+.ui-dialog-buttonset button.ui-button:hover {
+    background-color: #64a3d9;
+}
+
+.error {
+    background-color: #da4942;
+}

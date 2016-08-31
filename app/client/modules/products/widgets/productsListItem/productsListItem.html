@@ -1,0 +1,17 @@
+<header class="container">
+  <div class="icon<% if (isFavorite) { %> active <% } %> js-fav-project" title="Mark(Unmark) project as favorite"></div>
+  <h1>
+    <a href="/product/<%- id %>"><%= name %></a>
+  </h1>
+  <div class="splitter"> </div>
+  <a href="<%- url %>" class="link" target="_blank"><%= urlCaption %></a>
+
+</header>
+<div class="services-container">
+  <% for(var i in tools) { %>
+  <div class="service-item <%- tools[i].version %><% if (tools[i].name === favoriteToolName) { %> active <% } %> js-tool"
+    name="<%- tools[i].name %>">
+    <%= tools[i].name %>
+  </div>
+  <% } %>
+</div>

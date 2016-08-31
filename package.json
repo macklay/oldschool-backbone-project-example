@@ -1,0 +1,25 @@
+{
+  "name": "projects-navigator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macklay/oldschool-backbone-project-example/"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macklay/oldschool-backbone-project-example/"
+  },
+  "homepage": "https://github.com/macklay/oldschool-backbone-project-example/",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "main-bower-files": "^2.13.1"
+  }
+}

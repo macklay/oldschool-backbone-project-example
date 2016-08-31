@@ -1,0 +1,24 @@
+<header class="container main-header">
+  <h1><%= name %></h1>
+  <a href="#" class="js-delete">delete product</a>
+</header>
+<section class="info-col">
+  <h2>Product`s information</h2>
+  <div class="param">Domain: <a href="<%- url %>"><%= urlCaption %></a></div>
+  <div class="param">Keywords count: <span><%= keywords.length %></span></div>
+  <% if (keywords.length) { %>
+  <div class="param">Keywords list:
+    <ul>
+      <% for(var i in keywords) { %>
+        <li><%= keywords[i].keyword %></li>
+      <% } %>
+    </ul>
+  </div>
+  <% } %>
+</section>
+<section class="limits-col">
+  <h2>Limits</h2>
+  <div class="param">Projects: <span><%= current.products %></span> of <span><%= limits.products %></span></div>
+  <div class="param">Keywords: <span><%= current.keywords %></span> of <span><%= limits.keywords %></span></div>
+  <div class="param">Pages: <span><%= current.pages %></span> of <span><%= limits.pages %></span></div>
+</section>

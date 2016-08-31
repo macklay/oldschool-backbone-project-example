@@ -1,0 +1,57 @@
+.products-item-page > header * {
+    float: left;
+}
+
+.products-item-page > header > h1 {
+    margin: 16px 0;
+}
+
+.products-item-page > header a {
+    margin: 31px 0 0 16px;
+}
+
+.products-item-page .info-col,
+.products-item-page .limits-col {
+    padding: 14px 0 0 24px;
+    width: 50%;
+}
+
+.products-item-page .info-col {
+    float: left;
+}
+
+.products-item-page .limits-col {
+    float: right;
+}
+
+.products-item-page .info-col ul {
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.products-item-page .info-col li {
+    margin-top: 15px;
+}
+
+.products-item-page h2 {
+    color: #adadad;
+    font-size: 28px;
+}
+
+.products-item-page .param {
+    font-size: 28px;
+    margin-top: 26px;
+}
+
+.products-item-page .param span {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.products-item-page > .limits-col span {
+    font-weight: 600;
+}
+
+.products-list-item:last-of-type {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,12 @@
+.products-main-page .products-list-menu {
+    float: right;
+}
+
+.products-main-page > header > h1 {
+    float: left;
+    margin: 16px 0;
+}
+
+.products-main-page .products-list-menu {
+    margin: 19px 0;
+}

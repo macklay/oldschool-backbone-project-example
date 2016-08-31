@@ -1,0 +1,82 @@
+.products-list-menu .ui-checkboxradio-icon {
+    border: 1px solid #4598de;
+    display: none;
+}
+
+.products-list-menu .control-group {
+    float: left;
+}
+
+.products-list-menu .ui-state-active {
+    background-color: #4598de;
+}
+
+.products-list-menu label {
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Type filter control */
+
+.products-list-menu .type-filter {
+    margin-right: 34px;
+}
+
+.products-list-menu .type-filter label {
+    background-color: #fff;
+    box-shadow: none;
+    min-width: 74px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.products-list-menu .type-filter label.ui-state-active {
+    background-color: #4598de;
+    border-color: #4598de;
+}
+
+.products-list-menu .type-filter label:first-of-type {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.products-list-menu .type-filter label:last-of-type {
+    border-bottom-right-radius: 2px;
+    border-left: 0;
+    border-top-right-radius: 2px;
+}
+
+/* Favorite tool control */
+
+.products-list-menu .favorite-tool {
+    font-size: 13px;
+    margin-right: 21px;
+}
+
+.products-list-menu .ui-selectmenu-button {
+    background-color: inherit;
+    border-color: #68787d;
+    border-radius: 2px;
+    outline: 0;
+    padding: 6px 8px 6px 0;
+}
+
+.products-list-menu .ui-selectmenu-text {
+    margin-left: 12px;
+}
+
+/* Button*/
+
+.products-list-menu button {
+    background-color: #4598de;
+    border: 1px solid #4598de;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    padding: 5px 11px;
+}
+
+.products-list-menu button:hover {
+    background-color: #64a3d9;
+}

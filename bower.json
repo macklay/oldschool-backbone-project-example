@@ -1,0 +1,22 @@
+{
+  "name": "test-backbone-projects",
+  "homepage": "https://github.com/macklay/test-backbone-projects",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.2.0",
+    "backbone": "^1.3.3",
+    "jquery": "^3.1.0",
+    "jquery-ui": "^1.12.0"
+  },
+  "devDependencies": {
+  }
+}

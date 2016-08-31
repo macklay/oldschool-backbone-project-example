@@ -1,0 +1,11 @@
+.add-new-form label {
+    display: inline-block;
+    margin-top: 26px;
+    width: 25%;
+}
+
+.add-new-form input {
+    display: inline-block;
+    height: 30px;
+    width: 70%;
+}
